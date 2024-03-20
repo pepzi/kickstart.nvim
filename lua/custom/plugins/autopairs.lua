@@ -13,10 +13,4 @@ return {
     local cmp = require 'cmp'
     cmp.event:on('confirm_done', cmp_autopairs.on_confirm_done())
   end,
-  {
-    'akinsho/bufferline.nvim',
-    version = '*',
-    dependencies = 'nvim-tree/nvim-web-devicons',
-    opts = {},
-  },
 }
